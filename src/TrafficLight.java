@@ -32,8 +32,8 @@ public class TrafficLight {
                 result = "Green";
                 break;
             default:
-                System.out.println("Red");
-                result = "red";
+                System.out.println("Invalid Light Number");
+                result = "Invalid Light Number";
                 break;
         }
         return result;
@@ -55,7 +55,7 @@ public class TrafficLight {
     }
 
     public boolean isPositiveNumber(int number) {
-        return number >= 0;
+        return number > 0;
     }
 
 }
