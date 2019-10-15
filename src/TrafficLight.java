@@ -10,10 +10,23 @@ public class TrafficLight {
         defaultColor = 1;
     }
 
+    /**
+     *
+     * @param id
+     * @param numberOfLights
+     */
+
     public TrafficLight(int id, int numberOfLights) {
         this.id = id;
         this.numberOfLights = numberOfLights;
+
     }
+
+    /**
+     *
+     * @param light
+     * @return
+     */
 
     public String showColor(int light) {
 
@@ -39,9 +52,19 @@ public class TrafficLight {
         return result;
     }
 
+    /**
+     *
+     * @return
+     */
+
     public int showId() {
        return id;
     }
+
+    /**
+     *
+     * @param light
+     */
 
     public void showColorAndId(int light) {
         String result;
@@ -54,8 +77,49 @@ public class TrafficLight {
         );
     }
 
+    /**\
+     *
+     * @param number
+     * @return
+     */
+
     public boolean isPositiveNumber(int number) {
         return number > 0;
     }
 
+    /**
+     *
+     * @return
+     */
+
+    public int getDefaultColor() {
+        return defaultColor;
+    }
+
+    /**
+     *
+     * @param defaultColor
+     */
+
+    public void setDefaultColor(int defaultColor) {
+        this.defaultColor = defaultColor;
+    }
+
+    /**
+     *
+     * @return
+     */
+
+    public int getNumberOfLights() {
+        return numberOfLights;
+    }
+
+    /**
+     *
+     * @param numberOfLights
+     */
+
+    public void setNumberOfLights(int numberOfLights) {
+        this.numberOfLights = numberOfLights;
+    }
 }
