@@ -24,9 +24,26 @@ public class TrafficController {
                             count,
                             Crossing.getNumberOfLights()
                     );
-            System.out.println("Current color: " +
-                    trafficLights[count].getCurrentColor()
-            );
+            int i = 1;
+
+            switch(i)
+            {
+                case 1:
+                    System.out.println("Current color case1: " +
+                            trafficLights[count].getCurrentColor()
+                    );
+                    break;
+                case 2:
+                    System.out.println("Current color case2: " +
+                            trafficLights[count].getCurrentColor()
+                    );
+                    break;
+                case 3:
+                    System.out.println("Current color case3: " +
+                            trafficLights[count].getCurrentColor()
+                    );
+                    break;
+            }
         }
 
     }
