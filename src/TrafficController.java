@@ -22,8 +22,11 @@ public class TrafficController {
             trafficLights[count] =
                     new TrafficLight(
                             count,
-                            Crossing.getNumberOfTrafficLights()
+                            Crossing.getNumberOfLights()
                     );
+            System.out.println("Current color: " +
+                    trafficLights[count].getCurrentColor()
+            );
         }
 
     }

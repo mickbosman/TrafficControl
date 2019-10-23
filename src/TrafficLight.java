@@ -1,8 +1,15 @@
+import java.util.Random;
+
 public class TrafficLight {
 
     private int id;
     private int numberOfLights;
     private int defaultColor;
+    private int currentColor;
+
+    /**
+     *  Initialize a new TrafficLight
+     */
 
     public TrafficLight() {
         id = 0;
@@ -19,6 +26,9 @@ public class TrafficLight {
     public TrafficLight(int id, int numberOfLights) {
         this.id = id;
         this.numberOfLights = numberOfLights;
+
+        //Random light color
+        setCurrentColor(createRandomNumber(3) + 1);
 
     }
 
@@ -50,6 +60,13 @@ public class TrafficLight {
                 break;
         }
         return result;
+    }
+
+    private int createRandomNumber(int seed) {
+        Random rand = new Random();
+        int value = rand.nextInt(seed);
+
+        return value;
     }
 
     /**
@@ -121,5 +138,13 @@ public class TrafficLight {
 
     public void setNumberOfLights(int numberOfLights) {
         this.numberOfLights = numberOfLights;
+    }
+
+    public int getCurrentColor() {
+        return currentColor;
+    }
+
+    public void setCurrentColor(int currentColor) {
+        this.currentColor = currentColor;
     }
 }
