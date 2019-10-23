@@ -14,7 +14,17 @@ public class Crossing {
                 new TrafficController();
     }
 
+    /**
+     *
+     * @return
+     */
+
     public static int getNumberOfTrafficLights() {return numberOfTrafficLights; }
+
+    /**
+     *
+     * @return
+     */
 
     public static int getNumberOfLights() {return numberOfLights; }
 }

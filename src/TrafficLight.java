@@ -140,9 +140,19 @@ public class TrafficLight {
         this.numberOfLights = numberOfLights;
     }
 
+    /**
+     *
+     * @return
+     */
+
     public int getCurrentColor() {
         return currentColor;
     }
+
+    /**
+     *
+     * @param currentColor
+     */
 
     public void setCurrentColor(int currentColor) {
         this.currentColor = currentColor;
