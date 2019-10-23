@@ -3,6 +3,6 @@
 ## JavaDoc:
 http://25682.hosts2.ma-cloud.nl/bewijzenmap/periode2.1/tdd/TrafficControl/
 
-[Foto van de lichten]
+[Foto van de trafficLights]
 
-[Foto van de lichten]: <https://github.com/imcrazydia/TrafficControl/trafficlights.jpg>
+[Foto van de trafficLights]: <https://github.com/imcrazydia/TrafficControl/blob/master/trafficlights.jpg>
