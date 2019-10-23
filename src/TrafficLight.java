@@ -74,7 +74,7 @@ public class TrafficLight {
      * @return
      */
 
-    public int showId() {
+    public int getId() {
        return id;
     }
 
@@ -90,7 +90,7 @@ public class TrafficLight {
         System.out.println("My color is "
                 + result
                 + " and my id is: "
-                + showId()
+                + getId()
         );
     }
 
